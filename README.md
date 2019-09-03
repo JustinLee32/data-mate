@@ -1,8 +1,9 @@
 <!--<center>-->
-## 数据标准匹配代码简介
+# 数据标准匹配代码简介
 <!--</center>-->
 作者： Guobin Li &emsp; &emsp; 日期：2019年8月30日
-###1. 运行方法
+
+### 1. 运行方法
 * http调用python方法：文件位于
 
 	`./fd.core/fd/ng/netserver/fd_http_sever.py`
@@ -56,12 +57,12 @@
 	```
 
 
-###2. 代码简介
+### 2. 代码简介
 <!--###2.0 目录结构
 <center> 表1 数据标准匹配的代码结构
 
 </center>-->
-####2.1 `./main`目录
+#### 2.1 `./main`目录
 
 * `./main/app.py`
 	
@@ -134,7 +135,7 @@
 
 	主要功能：python本地的用户界面（可忽略）。
 
-####2.2 `./utils`目录
+#### 2.2 `./utils`目录
 
 * `./utils/calc_accuracy.py`
 
@@ -253,7 +254,7 @@
                  , zh_std_words_docs_matrix=[]
                  , zh_std_words_sim_matrix=[]
                  , initial=False):
-   # 这里的intial表示是否为数据标准输入的步骤
+   	# 这里的intial表示是否为数据标准输入的步骤
 	```
 	
 * `./libs/calc_English_similarity.py`
@@ -283,7 +284,7 @@
                  , en_std_split_words_list=[]
                  , en_std_words_docs_matrix=[]
                  , initial=False):
-   # 这里的intial表示是否为数据标准输入的步骤
+   	# 这里的intial表示是否为数据标准输入的步骤
 	```
 
 * `.utils/calc_other_similarity.py`
